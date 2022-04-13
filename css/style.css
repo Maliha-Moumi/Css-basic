@@ -1,0 +1,128 @@
+body {
+  background-color: powderblue;
+}
+h1 {border:2px solid Tomato;"
+  color: white;
+  text-align: center;
+}
+
+ul {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: 400;
+  color:blue;
+}
+em {color: red;}
+/*large and small text*/
+p.large { color: blue;
+  text-align: center;
+  font-size: 300%;
+}
+p.small { color: red;
+  text-align: right;
+  font-size: 100%;
+}
+.h5e{
+  color: maroon;
+text-align: right;
+}
+div {
+  background-color:orange;
+}
+
+.purple {
+  background-color:purple;
+  opacity:0.6;
+}
+ div.ex1 {background: red;
+  width: 300px;
+  margin: auto;
+  border: 5px solid #73AE21;
+}
+
+div.ex2 {background: red;
+  max-width: 300px;
+  margin: auto;
+  border: 5px solid #73AE21;
+}
+div.ex3 {background: red;
+  width: 300px;
+  margin: auto;
+  border: 5px solid #73AE21;
+}
+span {
+  display: block;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    border:2px solid black;
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+ background-color: #f3f3f3;
+ border-bottom: 2px solid #009879;
+
+}
+.active-row {
+    font-weight: bold;
+    color: #008839;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+p {
+outline-width: 4px;
+}
+
+p.dotted {outline: dotted blueviolet;}
+p.dashed {outline: dashed blueviolet;}
+p.solid {outline: solid red;}
+p.double {outline: double red;}
+p.groove {outline: groove blueviolet;}
+p.ridge {outline: ridge yellow;}
+p.inset {outline: inset red;}
+p.outset {outline: outset purple;}
+p.offset{
+  margin: 30px;
+  background:tomato;
+  border: 2px solid black;
+  outline: 1px solid red;
+  outline-offset: 10px;
+}
+div.padding {font-size: 20px;
+   border: 1px solid black;
+  background-color: skyblue;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom:20px;
+  padding-left: 30px;
+}
+}

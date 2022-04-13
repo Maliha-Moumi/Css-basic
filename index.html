@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Css</title>
+	<style type="text/css">
+	h5 {
+  color: maroon;
+  margin-left: 40px;
+} 
+</style>
+</head>
+<body>
+<h1>What is CSS?</h1>
+<ul>
+<li>CSS stands for Cascading Style Sheets</li>
+<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+<li>External stylesheets are stored in CSS files</li></ul>
+<p>color is a property, and <em>red</em> is the property value</p>
+<p class="large">This paragraph will be blue, center-aligned, and in a large font-size.</p> 
+<p class="small">This paragraph will be red, right-aligned, and in a small font-size.</p> 
+<br><br>
+<h5>An internal style sheet may be used if one single HTML page has a unique style.This heading is made by internal css.</h5>
+<h5 style="color:maroon;text-align:center;">An inline style may be used to apply a unique style for a single element.This heading is made by inline css.</h5>
+<h5 class="h5e">If some properties have been defined for the same selector (element) in different style sheets, the value from the external style sheet will be used.This heading is made by external css.</h5>
+<br><br>
+<p style="background-color:SlateBlue;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+<div>
+This is a text inside a div element.
+<p class="purple">This paragraph has its own background color and its purple and opacity-0.6.</p>
+We are still in the div element.
+</div>
+<br><br>
+<div class="ex1">This div element has width: 300px;</div>
+<br>
+<div class="ex2">This div element has max-width:300px;</div>
+<br>
+<div class="ex3">This div element has min-width:300px;</div>
+
+<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
+the two divs!</p>
+<h2>Display span elements as block elements</h2>
+
+<span>A display property with</span> <span>a value of "block" results in</span> <span>a line break between each span elements.</span>
+<center>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tuhin Tushar</td>
+            <td>Head CR</td>
+        </tr>
+        <tr class="active-row">
+            <td>Masud Parvez</td>
+            <td>2nd CR</td>
+        </tr>
+        <tr>
+            <td>Maliha Moumi</td>
+            <td>Assistant CR</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table></center>
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="https://www.linkedin.com/in/maliha-moumi/" target="_blank">This is my linkedin link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+<p>THE COLOR RED SHOW UNVISITED LINK.THE COLOR GREEN SHOW VISITED LINK.THE COLOR HOTPINK SHOW MOUSEOVER LINK.THE COLOR BLUE SHOW SELECTED LINK.</p>
+<p class="dotted">A dotted outline</p>
+<p class="dashed">A dashed outline</p>
+<p class="solid">A solid outline</p>
+<p class="double">A double outline</p>
+<p class="groove">A groove outline. The effect depends on the outline-color value.</p>
+<p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
+<p class="inset">An inset outline. The effect depends on the outline-color value.</p>
+<p class="outset">An outset outline. The effect depends on the outline-color value.</p>
+<p class="offset">his paragraph has an outline of 10px outside the border edge.</p>
+<div class="padding">This div element has a top padding of 50px, a right padding of 80px, a bottom padding of 20px, and a left padding of 30px.</div>
+
+
+
+
+
+</body>
+</html>
